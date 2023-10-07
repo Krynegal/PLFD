@@ -1,4 +1,4 @@
-def convert_to(number, base, upper=False):
+def convert_to(number, base, upper=False): #конвертация только из десятичной системы, а по условию требуется из произвольной от 2 до 16
     digits = '0123456789abcdef'
     if base > len(digits):
         return None
