@@ -1,4 +1,4 @@
-def splitBySign(*numbers):
+def splitBySign(*numbers): #тут неотрицательные сортируются по убыванию, а отрицательные по возрастанию, а по условию нужно наоборот
     pos = []
     neg = []
     for n in numbers:
